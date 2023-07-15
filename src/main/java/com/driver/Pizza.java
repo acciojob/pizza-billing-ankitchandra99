@@ -77,7 +77,7 @@ public class Pizza {
         if(!IsBillGenerated){
             IsBillGenerated=true;
             if(IsExtraCheese){
-                bill= bill+ "Extra Toppings Added: "+toppingPrice+"\n";
+                bill= bill+ "Extra Cheese Added: "+CheesePrice+"\n";
 
             }
             if(IsExtraToppings){
