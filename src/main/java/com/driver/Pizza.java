@@ -86,7 +86,7 @@ public class Pizza {
             if(IsPaperBagAdded){
                 bill=bill+ "Paperbag Added: "+PaperBag+"\n";
             }
-            bill=bill +"price: "+TotalPrice+"\n";
+            bill=bill +"Total Price: "+TotalPrice+"\n";
         }
         return this.bill;
     }
